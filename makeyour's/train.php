@@ -18,17 +18,24 @@
 </style>
 
 <body bgcolor="black">
+
 		<h1>
 			&nbsp;MAKE YOUR OWN PUZZLE
             <img src="menu.png" width="70" height="70" align="right">
-		</h1>
+        </h1>
+        
 		<?php
-			shell_exec("C:\\Users\\easte\\AppData\\Local\\Continuum\\anaconda3\\envs\\env_master\\python.exe C:\\Bitnami\\wampstack-7.3.9-0\\apache2\\htdocs\\mc_eg.py");
-		?>	
-		<p><img src="result.png" alt="train result"/></p>
-		<h1>Let's Test</h1>
+            //shell_exec("C:\\Users\\easte\\AppData\\Local\\Continuum\\anaconda3\\envs\\env_master\\python.exe C:\\Bitnami\\wampstack-7.3.9-0\\apache2\\htdocs\\mc_eg.py");
+            shell_exec("C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python37_64\\python.exe C:\\Bitnami\\wampstack-7.3.11-0\\apache2\\htdocs\\mc_eg.py");
+        ?>	
+        
+        <p><img src="result.png" alt="train result"/></p>
+        
+        <h1>Let's Test</h1>
+        
 		<form action="test.php">
               <input type="button" name="test", value='TEST', onclick="location.href='test.php'">
         </form>
+
 </body>
 </html>
